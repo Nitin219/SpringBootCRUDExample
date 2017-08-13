@@ -65,7 +65,7 @@ public class SpringBootRestTestClient {
  
     /* DELETE */
     private static void deleteAllUsers() {
-        System.out.println("Testing all delete Users API----------");
+        System.out.println("Testing all delete Users API----------abc");
         RestTemplate restTemplate = new RestTemplate();
         restTemplate.delete(REST_SERVICE_URI+"/user/");
     }
